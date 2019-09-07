@@ -4,20 +4,26 @@ int main(){
 int a;
 int b;
 int c;
-int i=1;
-scanf("%d%d%d,&a&b&c");
+//int i=1;
+scanf("%d",&a);
+scanf("%d",&b);
+scanf("%d",&c);
  
- while(a,b,c!=0){
- 	if (a+b>c,a+c>b,b+c>a){
- 		printf("la ba canh cua tam giac");
- 	}else{
- 		printf("khong phai ba canh cua tam giac");
- 		i++;
+ while(!(a+b>c&&a+c>b&&b+c>a)){
+ //	if (a+b>c&&a+c>b&&b+c>a){
+ 		printf("nhap lai ba canh");
+ 	scanf("%d",&a);
+ 	scanf("%d",&b);
+ 	scanf("%d",&c);
+ 
+ //	}else{
+ 	//	printf("khong phai ba canh cua tam giac");
+ 	//	i++;
 		 
 	 }
 	
 }
-}
-return 0;
-}
+//
+//return 0;
+//}
 	

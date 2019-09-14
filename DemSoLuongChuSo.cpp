@@ -15,6 +15,5 @@ int main()
 	
 	}
 	 printf("So luong chu so cua so nguyen duong tren la: %d",dem+1);
-	 
-}
-
+	
+	}
